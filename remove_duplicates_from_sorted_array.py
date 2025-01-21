@@ -8,6 +8,5 @@ def remove_duplicates(nums):
             k += 1
     return k
 
-
 if __name__ == '__main__':
     print(remove_duplicates([1, 2, 3, 4, 4, 5, 6, 7, 7, 8]))
