@@ -19,10 +19,12 @@ def spiral(matrix: list[list[int]]) -> list[int]:
             for col in range(right, left - 1, -1):
                 result.append(matrix[bottom][col])
             bottom -= 1
+
         if left <= right:
             for row in range(bottom, top - 1, -1):
                 result.append(matrix[row][left])
             left += 1
+
     return result
 
 
