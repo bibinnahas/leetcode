@@ -12,5 +12,4 @@ def array_3_remove_duplicates(nums):
 
 if __name__ == '__main__':
     nums = [1, 1, 1, 2, 2, 3]
-    nums1 = [1, 1, 1, 1, 2, 2, 3, 1, 3, 2]
     print(array_3_remove_duplicates(nums))
